@@ -8,24 +8,57 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<p style="font-size: 1.5em;">&nbsp;</p>
-<p>&nbsp;</p>
-<hr />
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #339966;">STUDENT FORM</span></p>
-<hr /><form>
-<p>&nbsp;</p>
-<p>Student Name:&nbsp; <input id="fname" name="fname" type="text" /></p>
-<p>&nbsp; &nbsp; &nbsp; Student Age: <input id="lname" name="lname" type="text" /></p>
-<p>Email ID: <input id="email" name="email" type="text" /></p>
-<p>Pin Code: <input id="pincode" name="pincode" type="text" /></p>
-<p>Join Date:&nbsp; <input id="jdate" name="jdate" type="text" placeholder="dd-mm-yyyy" /></p>
-<p>&nbsp;</p>
-</form>
-<p>are you agree on terms and conditions?&nbsp;</p>
-<p><input id="agree" name="agree" type="checkbox" value="" /></p>
-<p>&nbsp;</p>
-<p><button type="button">Registrer</button></p>
-<p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p style="text-align: left;text-indent: 150px"><span style="text-decoration: underline; color: #800080;">STUDENT REGISTRATION FORM</span></p>
+  <form>
+  <p>&nbsp;</p>
+  <p>&nbsp;FIRST NAME:&nbsp;<input id="fname" name="fname" type="text" />&nbsp;(max 30 characters a-z and A-Z)</p>
+  <p>&nbsp;LAST NAME:&nbsp; <input id="fname" name="fname" type="text" />&nbsp;(max 30 characters a-z and A-Z)</p>
+  <p>&nbsp;DATE OF BIRTH&nbsp;&nbsp;<select id="day" name="day">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  </select><select id="month" name="month">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  </select><select id="year" name="year">
+  <option value="1">2022</option>
+  <option value="2">2023</option>
+  <option value="3">2024</option>
+  <option value="4">2025</option>
+  </select></p>
+  <p>&nbsp;EMAIL ID: &nbsp;&nbsp;&nbsp;&nbsp;<input id="email" name="email" type="text" />&nbsp;(10 digit number)</p>
+  <p>&nbsp;MOBILE NUMBER <input id="mobile" name="mobile" type="text" /></p>
+  <p>&nbsp;GENDER &nbsp; Male<input id="male" name="male" type="checkbox" value="Male" /> &nbsp;Female<input id="female" name="female" type="checkbox" value="female" /></p>
+  <p>&nbsp;ADDRESS <textarea id="address" cols="20" name="address" rows="4"></textarea></p>
+  <p>&nbsp;CITY <input id="city" name="city" type="text" />&nbsp;(max 30 characters a-z and A-Z)</p>
+  <p>&nbsp;PIN CODE <input id="pincode" name="pincode" type="text" />&nbsp;(6 digit number)</p>
+  <p>&nbsp;STATE <input id="state" name="state" type="text" />&nbsp;(max 30 characters a-z and A-Z)</p>
+  <p>&nbsp;COUNTRY <input id="country" name="country" type="text" /></p>
+  <p>&nbsp;</p>
+  </form>
+  <p>&nbsp;HOBBIES 
+    &nbsp; Drawing<input id="" name="" type="checkbox" value="" />
+    &nbsp;Singing<input id="" name="" type="checkbox" value="" />&nbsp; Dancing<input id="" name="" type="checkbox" value="" />&nbsp;Sketching<input id="" name="" type="checkbox" value="" />
+  <p>&nbsp; Others<input id="" name="" type="checkbox" value="" /><input id="" name="" type="text" value="" /></p>
+  </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;QUALIFICATION 
+  </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;COURSES APPLIED FOR 
+   &nbsp; BCA<input id="" name="" type="checkbox" value="" />
+    &nbsp; B.Com<input id="" name="" type="checkbox" value="" />&nbsp; B.Sc<input id="" name="" type="checkbox" value="" />
+    &nbsp; B.A<input id="" name="" type="checkbox" value="" />
+  </p>
+  
+  <p style="text-align: left;text-indent: 150px"><button type="button">Submit</button>&nbsp; <button type="button">Reset</button>&nbsp;</p>
+  <p>&nbsp;</p>
+  
+  
+  
 </body>
 </html>
